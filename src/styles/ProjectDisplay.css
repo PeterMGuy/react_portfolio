@@ -1,0 +1,60 @@
+.project {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 300px;
+  padding-bottom: 500px;
+}
+
+.project h1 {
+  margin-top: 400px;
+  color: #3e497a;
+  font-size: 45px;
+}
+
+.project img {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.project p {
+  font-size: 45px;
+  color: #3e497a;
+  display: flex;
+}
+
+.project c {
+    font-size: 35px;
+    color: #3e497a;
+    display: flex;
+    text-align: center;
+  }
+
+.project svg {
+  font-size: 60px;
+  color: #3e497a;
+}
+
+@media only screen and (min-width: 700px) {
+  .project img {
+    width: 450px;
+    border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+  .project img {
+    width: 600px;
+    border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+  .project img {
+    width: 800px;
+    border-radius: 10px;
+    }
+}
